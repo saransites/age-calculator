@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height:100vh;
+    margin:10px;
+}
+.container{
+    background:rgb(69, 68, 68);
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.box{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.box input{
+    flex-grow: 1;
+    padding:5px;
+    outline:none;
+    font-size:14px;
+    border-radius: 30px;
+    border:none;
+    text-align: center;
+}
+.btn{
+    padding:10px 20px;
+    border:none;
+    background:none;
+    border:1px solid  rgb(5, 5, 95);
+    border-radius: 10px;
+    margin:10px 0;
+    color:#fff;
+    cursor:pointer;
+}
